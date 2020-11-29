@@ -1,0 +1,47 @@
+Engineering Topics:
+
+
+I will be discussing a few Engineering topics today including these few key points:
+-	Quantity always trumps quality.
+-	Writing Clean Code as an artform
+-	Test Driven Development
+-	Using Clean Code principals within your Test Driven Development Cycles
+
+
+Quantity always trumps Quality:
+Writing a high quantity of code allows us to learn from our mistakes and improve over time through trial and error. We have all experienced this in other creative and hands-on forms such as learning an instrument, painting, even driving a car or using machinery. Practice makes perfect. Sticking to a small amount of code and trying to perfect it is not an effective path to learning or growth. We must learn by doing rather than tearing apart what has already been done.
+
+
+Writing Clean Code as an artform:
+Clean code offers quality and understanding not only to ourselves, but our future selves, and anyone else who may come across it. It is important to prioritize readability no matter how large or small the application. This applies to the way we refactor and organize code, clearly labeling and naming functions and values, and the simplicity and efficiency of functions and methods. Be consistent, and be clear.
+
+
+According to a blog by x-team.com, these are the key principals to clean code:
+KISS -  Aka “keep it simple stupid”. 
+DRY – “Don’t repeat yourself.”
+YAGNI – “You aren’t gonna need it.”  A developer should not add functionality unless deemed necessary.
+Composition over Inheritance - It's a principle where you design your types over what they do instead of over what they are.
+Composition is favored over inheritance by many developers, because inheritance forces you to build a taxonomy of objects early on in a project, making your code inflexible for changes later on.
+Favor readability - There's no point in having concise code if people don't understand it.
+Practice consistency - This is arguably the overarching principle of all clean code principles. If you decide to do something a certain way, stick to it throughout the entire project. If you have no choice but to move away from your original choice, explain why in the comments.
+
+
+Test Driven Development:
+In Test Driven Development we write test first, then use those tests to drive the design and development of applications. According to CodeAcademy.com, using the Red Blue Green approach allows us to organize our focus and plan. Effectively planning and troubleshooting an application before getting into the weeds of code allows us to efficiently create consistent, readable, and well thought out code.TDD is beneficial for both solo code projects, and necessary for larger collaborative team projects so that everyone is on the same page from step 1. TDD saves time for everyone involved.
+•	Red — think about what you want to develop
+•	Green — think about how to make your tests pass
+•	Refactor — think about how to improve your existing implementation
+
+Using Clean Code principals within Test Driven Development Cycles:
+Creating clean code extends to the TDD cycle. Our testing must be consistent, concise, readable, and well organized in order to create a well thought out project. Below are the “Three Laws of TDD” from an article by Robert C. Martin AKA Uncle Bob:
+
+1.	You must write a failing test before you write any production code.
+2.	You must not write more of a test than is sufficient to fail, or fail to compile.
+3.	You must not write more production code than is sufficient to make the currently failing test pass.
+The Red Blue Green cycle if TDD mentioned above should be used repeatedly in TDD before moving on to the next test. The Red Green Refactor cycle can also be used in smaller contexts for each individual test written. This micro-cycle version of the Red Green Refactor should include these steps below:
+1.	Create a unit tests that fails
+2.	Write production code that makes that test pass.
+3.	Clean up the mess you just made.
+
+To conclude, Code is an artform and like other artwork, knowledge of the way it will be interpreted and understood is an essential aspect of the craft. Happy crafting and collaborating!
+
