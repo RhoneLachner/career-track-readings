@@ -27,7 +27,7 @@ Practice consistency - This is arguably the overarching principle of all clean c
 
 
 Test Driven Development:
-In Test Driven Development we write test first, then use those tests to drive the design and development of applications. According to CodeAcademy.com, using the Red Blue Green approach allows us to organize our focus and plan. Effectively planning and troubleshooting an application before getting into the weeds of code allows us to efficiently create consistent, readable, and well thought out code.TDD is beneficial for both solo code projects, and necessary for larger collaborative team projects so that everyone is on the same page from step 1. TDD saves time for everyone involved.
+In Test Driven Development we write test first, then use those tests to drive the design and development of applications. According to CodeAcademy.com, using the Red Green Refactor approach allows us to organize our focus and plan. Effectively planning and troubleshooting an application before getting into the weeds of code allows us to efficiently create consistent, readable, and well thought out code.TDD is beneficial for both solo code projects, and necessary for larger collaborative team projects so that everyone is on the same page from step 1. TDD saves time for everyone involved.
 •	Red — think about what you want to develop
 •	Green — think about how to make your tests pass
 •	Refactor — think about how to improve your existing implementation
@@ -38,7 +38,7 @@ Creating clean code extends to the TDD cycle. Our testing must be consistent, co
 1.	You must write a failing test before you write any production code.
 2.	You must not write more of a test than is sufficient to fail, or fail to compile.
 3.	You must not write more production code than is sufficient to make the currently failing test pass.
-The Red Blue Green cycle if TDD mentioned above should be used repeatedly in TDD before moving on to the next test. The Red Green Refactor cycle can also be used in smaller contexts for each individual test written. This micro-cycle version of the Red Green Refactor should include these steps below:
+The Red Green Refactor cycle if TDD mentioned above should be used repeatedly in TDD before moving on to the next test. The Red Green Refactor cycle can also be used in smaller contexts for each individual test written. This micro-cycle version of the Red Green Refactor should include these steps below:
 1.	Create a unit tests that fails
 2.	Write production code that makes that test pass.
 3.	Clean up the mess you just made.
